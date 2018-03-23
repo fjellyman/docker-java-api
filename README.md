@@ -16,4 +16,4 @@ The dependencies are configured to be used with Gradle.
 
 To run the application, simply use the Java CLI.
 
-`java -jar build/libs/docker-java-api-0.1.0.jar`
+`./gradlew build && java -jar build/libs/docker-java-api-0.1.0.jar`
